@@ -7,7 +7,7 @@ body {
 }
 
 .button {
-    background-color: #FF5959;
+    background-color: #fe6868;
     text-decoration: none;
     color: #fff;
     padding: 12px 18px;
@@ -43,4 +43,70 @@ body {
     line-height: 24px;
     font-size: 14px;
     margin-bottom: 38px;
+}
+
+/**********************************************
+                 donate area-1                            
+***********************************************/
+.donate-today-area .donate-text{
+    text-align: center;
+    margin-top: 90px;
+}
+.donate-today-area .donate-text h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.money-area-main{
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 42px;
+}
+.money-area-main .money-area{
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 178px;
+}
+.money-area .money-child{
+    /* background-color: dimgrey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 26px;
+}
+.money-area .money-child h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgb(152, 152, 152);
+}
+#money-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 26px;
+    border: 2px solid #fe6868;
+    background-color: #fde2e2;
+    border-radius: 5px;
+}
+#money-child h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fe6868;
+}
+.input-text{
+    text-align: center;
+}
+.input-text input{
+    width: 50%;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    color: rgb(152, 152, 152);
+    text-align: center;
+    padding-bottom: 6px;
+    margin-bottom: 52px;
+    outline: none;
 }
