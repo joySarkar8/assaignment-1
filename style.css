@@ -46,24 +46,24 @@ body {
 }
 
 /**********************************************
-                 donate area-1                            
+                 donate area-1                 
 ***********************************************/
-.donate-today-area .donate-text{
+.text-align{
     text-align: center;
-    margin-top: 90px;
+    margin-top: 80px;
 }
-.donate-today-area .donate-text h1{
+.text-align h1{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 0;
 }
-.money-area-main{
+.content-area{
     width: 100%;
     padding-top: 20px;
     margin-bottom: 42px;
 }
-.money-area-main .money-area{
+.content-area .money-area{
     display: flex;
     justify-content: space-around;
     padding: 26px 178px;
@@ -109,4 +109,28 @@ body {
     padding-bottom: 6px;
     margin-bottom: 52px;
     outline: none;
+}
+
+/**********************************************
+                 donate area-2                 
+***********************************************/
+.plan{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+#plan-child-1{
+    padding: 4% 2%;
+    background-color: #47eafc1d;
+    margin: 0 1%;
+}
+#plan-child-2{
+    padding: 4% 2%;
+    background-color: #fde2e26f;
+    margin: 0 1%;
+}
+#plan-child-3{
+    padding: 4% 2%;
+    background-color: #ffefc5a9;
+    margin: 0 1%;
 }
