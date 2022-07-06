@@ -1,0 +1,46 @@
+/**********************************************
+                 common css                            
+***********************************************/
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.button {
+    background-color: #FF5959;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 6px;
+}
+
+/**********************************************
+                 header area                            
+***********************************************/
+.header-part {
+    background-image: linear-gradient(to bottom, transparent, black), url(img/header-img.png);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-part h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-size: 700;
+    color: #fff;
+    line-height: 80px;
+    margin-bottom: 18px;
+}
+
+.header-part p {
+    color: #fff;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 38px;
+}
