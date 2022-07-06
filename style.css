@@ -50,7 +50,7 @@ body {
 ***********************************************/
 .text-align{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 .text-align h1{
     font-family: 'Inter', sans-serif;
@@ -123,14 +123,58 @@ body {
     padding: 4% 2%;
     background-color: #47eafc1d;
     margin: 0 1%;
+    border-radius: 10px;
 }
 #plan-child-2{
     padding: 4% 2%;
     background-color: #fde2e26f;
     margin: 0 1%;
+    border-radius: 10px;
 }
 #plan-child-3{
     padding: 4% 2%;
     background-color: #ffefc5a9;
     margin: 0 1%;
+    border-radius: 10px;
+}
+
+/**********************************************
+                 update area                 
+***********************************************/
+.subscribe{
+    display: flex;
+    justify-content: center;
+    background-color: #ffefc5ba;
+    padding: 86px;
+    margin: 50px 132px 0;
+}
+.subscribe input{
+    width: 414px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgba(213, 213, 213, 0.68);
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    padding-left: 16px;
+    font-size: 16px;
+}
+.subscribe .button{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+/**********************************************
+                 footer area                 
+***********************************************/
+footer .text-align{
+    padding: 26px 0;
+    background-color: rgb(47, 47, 47);
+}
+footer .text-align h1{
+    font-family: 'Lobster', cursive;
+    color: #fe6868;
+}
+footer .text-align p{
+    color: #fff;
 }
